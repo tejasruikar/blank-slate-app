@@ -13,7 +13,7 @@
       {
         "first":
       [
-        { "text": "Hi there " },
+        { "text": "Hi I'm Dayne, Maryland Department of Labours Virtual Assitant, I can help you answer your questions, you can select one of these topics or type a different question " },
         { "id": "name", "type": "dynamic" },
         { "text": "! Can you hear me? " }
       ],
@@ -23,6 +23,58 @@
         {"id": "name", "type": "dynamic" }
         ]
     },
+    "menu_1": 
+    {
+      "first":
+    [
+      { "text": "1: Payment and weekly certifications\n2: My claim/application status\n3: File a new Claim\n4: Unemployment Eligibility" }
+
+    ],
+    "repeat":
+    [
+      {"text": "1: Payment and weekly certifications\n2: My claim/application status\n3: File a new Claim\n4: Unemployment Eligibility"  }
+
+      ]
+  },
+  "menu_2": 
+  {
+    "first":
+  [
+    { "text": "1: Missing Payments\n2:Weekly Certification information\n3: Transition to direct deposit\n4: Receiving my weekly payments" }
+
+  ],
+  "repeat":
+  [
+    {"text": "1: Missing Payments\n2:Weekly Certification information\n3: Transition to direct deposit\n4: Receiving my weekly payments" }
+
+    ]
+},
+"menu_3": 
+{
+  "first":
+[
+  { "text": "1:Correct My weekly Certification\n2:Missing weekly certification\n" }
+
+],
+"repeat":
+[
+  {"text": "1:Correct My weekly Certification\n2:Missing weekly certification\n" }
+
+  ]
+},
+"menu_4": 
+{
+  "first":
+[
+  { "text": "1:Submit weekly Certification\n2:Weekly certification Tutorial\n" }
+
+],
+"repeat":
+[
+  { "text": "1:Submit weekly Certification\n2:Weekly certification Tutorial\n" }
+
+  ]
+},
 
       "yes": 
       {
@@ -101,6 +153,8 @@
     "macros": 
     {
       "greeting": {},
+      "menu_1":{},
+      "menu_2":{},
       "yes": {},
       "no": {},
       "i_will_call_back": {},

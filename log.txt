@@ -1,0 +1,187 @@
+####################################################################################################
+ai: Hi I'm Dayne, Maryland Department of Labours Virtual Assitant, I can help you answer your questions, you can select one of these topics or type a different question ! Can you hear me? 
+ai: 1: Payment and weekly certifications
+2: My claim/application status
+3: File a new Claim
+4: Unemployment Eligibility
+human: Payment
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "813339afd8b0dd6a0ec683692afe42ef:v2",
+    "weight": 0.99996,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "payment_weekly_certification",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "813339afd8b0dd6a0ec683692afe42ef:v2",
+    "weight": 0.99996,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "payment_weekly_certification",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+ai: Message Block
+ai: 1: Missing Payments
+2:Weekly Certification information
+3: Transition to direct deposit
+4: Receiving my weekly payments
+human: Missing Payments
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 1
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "813339afd8b0dd6a0ec683692afe42ef:v2",
+    "weight": 0.99975,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "missing_payment",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 1
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "813339afd8b0dd6a0ec683692afe42ef:v2",
+    "weight": 0.99975,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "missing_payment",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+ai: Message Block
+ai: 1:Correct My weekly Certification
+2:Missing weekly certification
+
+human: direct deposit
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 1
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "813339afd8b0dd6a0ec683692afe42ef:v2",
+    "weight": 1,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "direct_deposit",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+[
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 1
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  },
+  {
+    "type": "Intent",
+    "skill": "813339afd8b0dd6a0ec683692afe42ef:v2",
+    "weight": 1,
+    "likelihood": 1,
+    "location": {
+      "start": -1,
+      "end": -1
+    },
+    "intent": "direct_deposit",
+    "state": "positive",
+    "sentenceType": "statement"
+  }
+]
+ai: Message Block

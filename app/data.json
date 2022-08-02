@@ -2,6 +2,133 @@
   "version": "v2",
   "intents": 
   {
+    "direct_deposit": 
+    {
+      "includes": [
+        "Where can I find a direct deposit form?",
+        "direct deposit form",
+        "direct",
+        "deposit",
+        "direct deposit"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "payment_weekly_certification": 
+    {
+      "includes": [
+        "Payment",
+        "Weekly Certification",
+        "Weekly",
+        "Certification",
+        "Where can I get payments and weekly certifications?",
+        "I want to know about weekly certifications",
+        "I want to know about payments"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "missing_payment": 
+    {
+      "includes": [
+        "missing payment"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "stakeholder": 
+    {
+      "includes": [
+        "What is my stakeholder ID",
+        "stakeholder",
+        "ID"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "refund": 
+    {
+      "includes": [
+        "Where can I get a refund application?",
+        "refund application",
+        "Can I get a refund?"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "retirement_application": 
+    {
+      "includes": [
+        "Where can I find the retirement application?",
+        "retirement"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "correctWeeklyCertification": 
+    {
+      "includes": [
+        "Correct Weekly Certification",
+        "correct weekly certification",
+        "weekly certification correction",
+        "correction of weekly certifications"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "missingWeeklyCertification": 
+    {
+      "includes": [
+        "missing weekly certification"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "submitWeeklyCertification": 
+    {
+      "includes": [
+        "Submit Weekly Certification",
+        "submit weekly certification",
+        "weekly certification submit",
+        "submit certification",
+        "submit"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "weeklyCertificationTutorial": 
+    {
+      "includes": [
+        "Tutorial",
+        "weekly certification tutorial",
+        "tutorial weekly certification",
+        "tutorial certification",
+        "tutorial"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "address": 
+    {
+      "includes": [
+        "What is your addresss?",
+        "Can I get your address?",
+        "address"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
     "yes": 
     {
       "includes": [
@@ -56,52 +183,52 @@
  
   "entities": 
   {
-    "rating": 
+    "1": 
     {
       "open_set": false,
       "values": [
         {
           "value": "1",
           "synonyms": ["1", "one", "zero", "horrible", "worst ever", "the worst", "awful", "horrid", "despicable", "detestable", "very bad"]
-        },
-        {
-          "value": "2",
-          "synonyms": ["2", "two", "bad", "quite bad", "pretty bad", "not good", "crappy"]
-        },
-        {
-          "value": "3",
-          "synonyms": ["3", "three", "alright", "okay", "just okay"]
-        },
-        {
-          "value": "4",
-          "synonyms": ["4", "four", "good", "pretty good", "quite good", "good enough"]
-        },
-        {
-          "value": "5",
-          "synonyms": ["5", "five", "amazing", "incrdible", "just grand", "perfct", "wondrful", "very good"]
         }
       ],
       "includes": [
-        "I would say it was (1)[rating]",
-        "I would say it was (2)[rating]",
-        "I would say it was (3)[rating]",
-        "I would say it was (4)[rating]",
-        "I would say it was (5)[rating]",
-        "(1)[rating]",
-        "(2)[rating]",
-        "(3)[rating]",
-        "(4)[rating]",
-        "(5)[rating]",
-        "I had an (1)[rating] experience",
-        "I had an (2)[rating] experience",
-        "I had an (3)[rating] experience",
-        "I had an (4)[rating] experience",
-        "I had an (5)[rating] experience",
-        "I'll give you a (1)[rating]",
-        "I'll give you a (2)[rating]",
-        "I'll give you a (3)[rating]",
-        "I'll give you a (4)[rating]",
-        "I'll give you a (5)[rating]"
+        "I would say it was (1)[1]",
+        "(1)[1]",
+        "I had an (1)[1] experience",
+        "I'll give you a (1)[1]"
+      ]
+    },
+    "2": 
+    {
+      "open_set": false,
+      "values": [
+        {
+          "value": "2",
+          "synonyms": ["2", "two"]
+        }
+      ],
+      "includes": [
+        "I would say it was (2)[2]",
+        "(2)[2]",
+        "I had an (2)[2] experience",
+        "I'll give you a (2)[2]"
+      ]
+    },
+    "3": 
+    {
+      "open_set": false,
+      "values": [
+        {
+          "value": "3",
+          "synonyms": ["3", "three"]
+        }
+      ],
+      "includes": [
+        "I would say it was (3)[3]",
+        "(3)[3]",
+        "I had an (3)[3] experience",
+        "I'll give you a (3)[3]"
       ]
     }
   }

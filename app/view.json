@@ -26,7 +26,7 @@
   "node::root": {
     "common.position": {
       "x": 0,
-      "y": 979
+      "y": 1729
     }
   },
   "node::schedule_haircut": {
@@ -44,19 +44,19 @@
   "node::answering_machine": {
     "common.position": {
       "x": 0,
-      "y": 355
+      "y": 1271
     }
   },
   "node::i_will_call_back": {
     "common.position": {
       "x": 0,
-      "y": 501
+      "y": 1417
     }
   },
   "node::can_hear_you": {
     "common.position": {
       "x": 0,
-      "y": 647
+      "y": 1563
     }
   },
   "node::dont_understand_hangup_params": {
@@ -68,7 +68,7 @@
   "node::dont_understand": {
     "common.position": {
       "x": 0,
-      "y": 43
+      "y": 2499
     }
   },
   "node::dont_understand_preprocessor": {
@@ -92,61 +92,61 @@
   "node::i_am_robot": {
     "common.position": {
       "x": 0,
-      "y": 1311
+      "y": 2041
     }
   },
   "node::repeat_preprocessor": {
     "common.position": {
       "x": 0,
-      "y": 1457
+      "y": 2187
     }
   },
   "node::repeat_hangup_params": {
     "common.position": {
       "x": 0,
-      "y": 1603
+      "y": 2333
     }
   },
   "node::repeat": {
     "common.position": {
       "x": 0,
-      "y": 1769
+      "y": 2685
     }
   },
   "node::ping": {
     "common.position": {
       "x": 0,
-      "y": 1955
+      "y": 3455
     }
   },
   "node::wait": {
     "common.position": {
       "x": 0,
-      "y": 2121
+      "y": 2851
     }
   },
   "node::sorry_wont_call": {
     "common.position": {
       "x": 0,
-      "y": 2267
+      "y": 2997
     }
   },
   "node::swear_words": {
     "common.position": {
       "x": 0,
-      "y": 2413
+      "y": 3143
     }
   },
   "node::hangup": {
     "common.position": {
       "x": 0,
-      "y": 2559
+      "y": 3289
     }
   },
   "node::dont_understand_hangup": {
     "common.position": {
       "x": 600,
-      "y": 43
+      "y": 2499
     }
   },
   "node::hello_hangup": {
@@ -158,7 +158,7 @@
   "node::repeat_or_ping_hangup": {
     "common.position": {
       "x": 600,
-      "y": 1862
+      "y": 3070
     }
   },
   "node::cancel_appt_do": {
@@ -337,8 +337,8 @@
   },
   "node::new_node0": {
     "common.position": {
-      "x": 600,
-      "y": 663.5095622931957
+      "x": 327.0214922830363,
+      "y": 535.3420616663284
     }
   },
   "node::when_call_back": {
@@ -458,7 +458,91 @@
   "node::how_are_you": {
     "common.position": {
       "x": 0,
-      "y": 209
+      "y": 1125
+    }
+  },
+  "node::directDeposit": {
+    "common.position": {
+      "x": 0,
+      "y": 23
+    }
+  },
+  "node::paymentweeklycertification": {
+    "common.position": {
+      "x": 0,
+      "y": 169
+    }
+  },
+  "node::missing_payment": {
+    "common.position": {
+      "x": 0,
+      "y": 353.2851449447265
+    }
+  },
+  "node::stakeholder": {
+    "common.position": {
+      "x": 0,
+      "y": 539.6770318021202
+    }
+  },
+  "node::refund": {
+    "common.position": {
+      "x": 0,
+      "y": 687
+    }
+  },
+  "node::retirement_application": {
+    "common.position": {
+      "x": 0,
+      "y": 833
+    }
+  },
+  "node::address": {
+    "common.position": {
+      "x": 0,
+      "y": 979
+    }
+  },
+  "node::reset_counter": {
+    "common.position": {
+      "x": 0,
+      "y": 1895
+    }
+  },
+  "node::correctWeeklyCertification": {
+    "common.position": {
+      "x": 600,
+      "y": 262
+    }
+  },
+  "node::missingWeeklyCertification": {
+    "common.position": {
+      "x": 600,
+      "y": 428.229888650127
+    }
+  },
+  "node::submitWeeklyCertification": {
+    "common.position": {
+      "x": 1200,
+      "y": 375
+    }
+  },
+  "node::weeklyCertificationTutorial": {
+    "common.position": {
+      "x": 1079.6808510638298,
+      "y": 517.6808510638298
+    }
+  },
+  "node::direct_deposit": {
+    "common.position": {
+      "x": 599.1702127659574,
+      "y": 1730.659574468085
+    }
+  },
+  "node::new_node1": {
+    "common.position": {
+      "x": 0,
+      "y": 287.0160043623467
     }
   }
 }

@@ -5,7 +5,6 @@ const fs = require("fs");
 async function main() 
 {
   const app = await dasha.deploy("./app");
-
   app.connectionProvider = async (conv) =>
     conv.input.phone === "chat"
       ? dasha.chat.connect(await dasha.chat.createConsoleChat())
